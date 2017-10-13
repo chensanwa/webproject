@@ -1,0 +1,72 @@
+
+body{
+	min-width: 900px;
+}
+.leftbox,.centerbox,.rightbox{
+	/*min-height: 500px;*/
+	float: left;
+	position: relative;
+	background-color: #fff;
+}
+.bigbox{
+	border: 1px solid blue;
+	/*min-height: 1000px;*/
+	overflow: hidden;
+	padding: 20px 160px 20px 240px;
+	background-color: #E1E0E0;
+}
+.centerbox{
+	border: 1px solid blue;
+	/*background-color: red;*/
+	width: 100%;
+}
+.centerbox .middle{
+	margin: 20px;
+}
+.leftbox{
+	margin-left: -100%;
+	/*margin-top: 20px;*/
+	width: 198px;
+	border: 1px solid blue;
+	/*background-color: blue;*/
+	left: -222px;
+}
+.leftbox .leftleft{
+	padding:0;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.leftbox .leftright{
+	float: left;
+	margin:20px;
+}
+.rightbox{
+	width: 116px;
+	border: 1px solid blue;
+	/*background-color: yellow;*/
+	margin-left: -120px;
+	right: -140px;
+}
+
+.leftbox .leftleft{
+	width: 80px;
+	height: 80px;
+	/*margin: 20px;*/
+}
+.leftbox .leftright{
+
+}
+.rightbox .right{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+
+}
+.partnerlogo{
+	width: 80px;
+	height: 80px;
+	
+
+}
