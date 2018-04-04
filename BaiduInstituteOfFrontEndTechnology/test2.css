@@ -1,5 +1,7 @@
 body{
 	background-color: #F5EFEF;
+	margin: 0;
+	padding: 0;
 }
 
 p{
@@ -9,13 +11,12 @@ p{
 	margin: 0;
 	padding: 0;
 	background-color:#ffffff; 
-	height: 70px;
 }
 a{
 	text-decoration: none;
 }
 .header .oneName{
-	float: left;
+	/*float: left;*/
 	/*width: 70%;*/
 	margin-left: 20px;
 }
@@ -24,42 +25,37 @@ a{
 	float: right;
 	/*width: 30%;*/
 	background-color:#ffffff;
-}
-.href_list ul{
-	/*background-color: blue;*/
-	/*border: 1px solid #000;*/
-	/*overflow: hidden;*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
-.header .href_list .listnum{
-	/*list-style: none;*/
+
+.header .href_list li{
 	float: left;
 	list-style:none;
-	padding: 10px;
-	/*width: 120px;*/
-	/*height: 30px;*/
-	background-color:#ffffff;
-	color:red;
+	line-height: 70px;
+	padding-left: 20px;
+	padding-right: 10px;
+	opacity: 0.5;
 }
-.header .href_list .listnum a{
-	background-color:#ffffff;
 
+.header .href_list li:hover{
+	background-color: red;
 }
-/*a:link{
-	color: #0C15F1;
-}*/
-a:visited{
-	color: #871010;
-}
-a:hover{
-	color: #0B9324;
+a{
+	color: #444;
 }
 
 
-.firstMessage ,.secondMessage,.photo,.lastMessage,.footer,form{
+
+.firstMessage ,.secondMessage,.photo,.lastMessage,.footer,form .celan{
 	background-color: #FFFFFF;
 	margin: 10px;
 	padding: 20px;
+}
+.photo{
+	overflow: hidden;
 }
 .secondMessage ul{
 	list-style: none;
@@ -71,6 +67,8 @@ a:hover{
 	border: 2px solid blue;
 	/*padding-top: 10px;*/
 	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
 }
 .photo .photolist img{
 	width: 290px;
@@ -98,6 +96,7 @@ a:hover{
 	height: 60px;
 	background-color: #979393;
 	text-align: center;
+	clear: both;
 }
 .fleft{
 	width: 40%;
@@ -129,3 +128,33 @@ a:hover{
 	vertical-align: top;
 }
 */
+
+
+
+
+
+.passage{
+	width: 60%;
+	float: left;
+	/*margin-right: 440px;*/
+	/*position: relative;*/
+	
+
+}
+.celan{
+	width: 36%;
+	/*position: relative;*/
+	float: left;
+	/*margin-right: 10px;*/
+	/*margin-left: -480px;*/
+	/*right: -480px;*/
+}
+
+.container{
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	/*padding-left: 0;*/
+	/*padding-right: 500px;*/
+}
+

@@ -51,6 +51,7 @@
 	float: left;
 	width: 641px;
 	height: 301px;
+	position: relative;
 }
 .bodyer .top .topleft .left{
 	width: 191px;
@@ -61,7 +62,8 @@
 	/*float: left;*/
 	background-color: #80E0B0;
 	position: absolute;
-	top: 91px;
+	top: 0px;
+	/*left: 0;*/
 }
 .bodyer .top .topleft .right{
 	width: 191px;
@@ -71,8 +73,8 @@
 	-moz-opacity:0.5;
 	opacity: 0.5;
 	position: absolute;
-	top: 91px;
-	left: 761px;
+	top: 0px;
+	right: 0px;
 }
 .bodyer .top .topright{
 	border-top: 2px solid #cc8091;

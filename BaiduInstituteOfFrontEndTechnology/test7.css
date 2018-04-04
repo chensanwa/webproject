@@ -1,0 +1,821 @@
+.container{
+	min-width: 800px;
+	/*max-width: 1100px;*/
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	/*background-color: #B2A0A0;*/
+}
+.header .newworld{
+	width: 300px;
+	height: 100%;
+	/*background-color: blue;*/
+	position: relative;
+	float: left;
+}
+.header .newworld a{
+	position: absolute;
+	left: 60px;
+	top: 20px;
+	/*text-decoration: none;*/
+}
+.header .newworld a img{
+	position: relative;
+	top: 3px;
+}
+.header .newworld a label{
+	/*position: absolute;*/
+	/*left: 115px;*/
+	/*top: 23px;*/
+	font-size: 21px;
+	color: #160606;
+
+}
+.header ul{
+	float: right;
+	list-style: none;
+	/*overflow: auto;*/
+	/*line-height: 20px;*/
+	/*height: 40px;*/
+	width: 600px;
+	margin-right: 0;
+
+}
+.header ul li{
+	float: left;
+	margin-left: 18px;
+	line-height: 40px;
+}
+.header ul li .login{
+	position: relative;
+	top: 3px;
+}
+.header ul li .textdoc{
+	/*border:1px solid blue;*/
+	width: 70px;
+	text-align: center;
+	height: 50px;
+}
+.header ul li .textdoc:hover{
+	/*border-bottom-width: 20px;*/
+	border-bottom: 3px solid red;
+}
+.bodyer{
+	width: 100%;
+	height: 1000px;
+	/*background-color: #F2DDDD;*/
+	margin: 0;
+	padding: 0;
+}
+.bodyer .life{
+	width: 100%;
+	height: 800px;
+	background-image: url(image1.png);
+	background-size: cover;
+}
+.bodyer .life .lifeblank{
+	width: 100%;
+	height: 220px;
+	/*background-color: blue;*/
+}
+.bodyer .life .lifetop{
+	width: 100%;
+	height: 95px;
+	/*background-color: red;*/
+	padding-left: 10%;
+	margin-bottom: 0;
+}
+.bodyer .life .lifetop p{
+	font-size: 55px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.bodyer .life .lifemiddle{
+	width: 100%;
+	height: 100px;
+	/*background-color: #B89595;*/
+	padding-left: 10%;
+	margin-top: 0;
+}
+.bodyer .life .lifemiddle p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 0;
+	line-height: 36px;
+}
+.bodyer .life .lifebtn{
+	width: 100%;
+	height: 200px;
+	/*background-color: #A9F2D2;*/
+	padding-left: 10%;
+	padding-top: 30px;
+}
+.bodyer .life .lifebtn input{
+	width: 350px;
+	height: 70px;
+	background-color: #F35F5F;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 5px;
+	border: 0;
+	/*letter-spacing: 20px;*/
+}
+.bodyer .list{
+	margin-top: 40px;
+	width: 100%;
+}
+.bodyer .list .list1{
+	/*width: 100%;*/
+	height: 70px;
+	/*background-color: #7B9D9B;*/
+	margin-top: 40px;
+}
+.bodyer .list .list1 ul li{
+	float: left;
+	line-height: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.bodyer .list table{
+	border: 0;
+	width: 100%;
+	height: 150px;
+	/*background-color: #A4D69D;*/
+}
+.bodyer .list table td{
+	text-align: center;
+	/*line-height: 100px;*/
+	/*padding-top: 0;*/
+}
+.bodyer .list table .td1{
+	border-right: 2px solid #454343;
+	font-size: 18px;
+}
+.bodyer .list table .td2{
+	border-right: 2px solid #454343;
+}
+.bodyer .list table .td3{
+	border-right: 2px solid #454343;
+}
+.bodyer .what{
+	width: 100%;
+	height: 400px;
+	background-color: #D5D4D4;
+	margin-top: 60px;
+	/*padding-top: 40px;*/
+}
+.bodyer .what img{
+	padding-left: 45%;
+	padding-top: 100px;
+	width: 100px;
+	/*height: 50px;*/
+}
+.bodyer .what p{
+	font-size: 50px;
+	text-align: center;
+}
+.bodyer .map{
+	width: 100%;
+	height: 400px;
+	background-image: url(map.png);
+	background-size: cover;
+}
+.bodyer .map .thehead .message1{
+	color: #fff;	
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	/*letter-spacing: 4px;*/
+	/*margin-top: 50px;*/
+	/*line-height: 50px;*/
+	padding-top: 40px;
+}
+.bodyer .map .thehead .border{
+	width: 100%;
+	position: relative;
+	margin-top: 0;
+	padding-top: 0;
+	top: -10px;
+}
+.bodyer .map .thehead .border img{
+	position: absolute;
+	left: 49%;
+}
+.bodyer .map .thehead .message2{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	/*margin-top: 20px;*/
+	padding-top: 5px;
+}
+.bodyer .map .theform{
+	width: 100%;
+	/*background-color: #ADA4A4;*/
+	margin-top: 50px;
+}
+.bodyer .map .theform form{
+	padding-left: 23%;
+}
+.bodyer .map .theform select{
+	width: 15%;
+	height: 35px;
+	margin-left: 20px;
+}
+.bodyer .map .theform input{
+	width: 15%;
+	height: 35px;
+	background-color: #AC6464;
+	border:0;
+	margin-left: 20px;
+	/*letter-spacing: 30px;*/
+	/*text-align: center;*/
+	padding:0; 
+	font-size: 18px;
+	color: #fff;
+}
+.bodyer .activity{
+	/*width: 100%;*/
+	height: 500px;
+	/*background-color: #F0EEEE;*/
+	padding-left: 13%;
+	/*margin-top: 100px;*/
+	padding-top: 100px;
+	margin-bottom: 0;
+}
+.bodyer .activity .beijing{
+	width: 15%;
+	/*background-color: #A4B7EB;*/
+	float: left;
+}
+.bodyer .activity .beijing .thetitle{
+	width: 100%;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;
+}
+.bodyer .activity .beijing .thebottom{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	color: #5E5D5D;
+
+}
+
+.bodyer .activity .shanghai{
+	width: 15%;
+	/*background-color: #798CC9;*/
+	float: left;
+	margin-left: 5%;
+
+}
+.bodyer .activity .shanghai .thetitle{
+	width: 100%;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;	
+	margin-top: 8px;
+	letter-spacing: 20px;
+	padding-left: 10px;
+}
+.bodyer .activity .shanghai .thebottom{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	color: #5E5D5D;	
+}
+.bodyer .activity .shenzhen{
+	width: 15%;
+	/*background-color: #A2E9EE;*/
+	float: left;
+	margin-left: 5%;
+}
+.bodyer .activity .shenzhen .thetitle{
+	width: 100%;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;
+}
+.bodyer .activity .shenzhen .thebottom{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	color: #5E5D5D;
+
+}
+.bodyer .activity .hongkong{
+	width: 15%;
+	/*background-color: #A3D184;*/
+	margin-left: 5%;	
+	float: left;
+}
+.bodyer .activity .hongkong .thetitle{
+	width: 100%;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;
+}
+.bodyer .activity .hongkong .thebottom{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	color: #5E5D5D;
+
+}
+.bodyer .moremessage{
+	width: 100%;
+	height: 600px;
+	/*background-color: #7F7777;*/
+	margin-top: 0;
+}
+.bodyer .moremessage .left{
+	background-image: url(three.gif);
+	width: 66%;
+	height: 100%;
+	float: left;
+	background-size: cover;
+	margin:0;
+}
+.bodyer .moremessage .left .one{
+	width: 100%;
+	/*height: 100px;*/
+	margin-top: 130px;
+	margin-bottom: 0;
+	font-size: 45px;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+}
+.bodyer .moremessage .left .two{
+	width: 100%;
+	font-size: 180px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	line-height: 150px;
+}
+.bodyer .moremessage .left .three{
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+}
+.bodyer .moremessage .left .four{
+	width: 100%;
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+}
+.bodyer .moremessage .right .san{
+	height: 0px;
+	width: 0px;
+	border: 20px solid #fff;
+	transform: rotate(45deg);
+	position: relative;
+	left: -20px;
+	top: 60px;
+}
+.bodyer .moremessage .right{
+	width: 34%;
+	height: 100%;
+	float: left;
+}
+
+.bodyer .moremessage .right .thetitle{
+	font-size: 30px;
+	/*margin-top: 100px;*/
+	padding-top: 110px;
+	text-align: center;
+}
+.bodyer .moremessage .right .thep{
+	/*width: 100%;*/
+	padding-left: 16%;
+	padding-right: 10%;
+	/*margin-left: 20px;*/
+	position: relative;
+	/*background-color: #F78787;*/
+	line-height: 40px;
+	color: #6E6969;
+}
+.bodyer .moremessage .right .theb{
+	margin-top: 25px;
+	position: relative;
+}
+.bodyer .moremessage .right .theb input{
+	width: 140px;
+	height: 40px;
+	position: relative;
+	left: 200px;
+	border:1px solid #F95F5F;
+	color: #F95F5F;
+	background-color: #fff;
+	font-weight: 600;
+}
+.bodyer .moremessage .right .theb input:hover{
+	background-color: #F95F5F;
+	color: #fff; 
+}
+.bodyer .moremessage .right .theb ul{
+	list-style: none;
+	position: absolute;
+	left: 35%;
+	top: 120%;
+}
+.bodyer .moremessage .right .theb ul li{
+	float: left;
+	margin-left: 15px;
+}
+.bodyer .moremessage .right .theb ul li div{
+	border: 1px solid #171616;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+}
+
+.bodyer .newmore{
+	/*width: 100%;*/
+	height: 500px;
+	position: relative;
+}
+.bodyer .newmore .left{
+	width: 33%;
+	height: 100%;
+	background-color: #F95F5F;
+	color: #fff;
+	font-size: 22px;
+	float: left;
+}
+.bodyer .newmore .left .thetop{
+	width: 100%;
+	text-align: center;
+	/*margin-top: 60px;*/
+	padding-top: 120px;
+	margin-bottom: 0;
+}
+.bodyer .newmore .left .thetop p{
+	margin-bottom: 0;
+}
+.bodyer .newmore .left .themiddle{
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	/*padding-top: 120px;*/
+}
+.bodyer .newmore .left .themiddle p{
+	margin-top: 5px;
+}
+.bodyer .newmore .left .heng{
+	border-top: 2px solid #fff;
+	width: 40px;
+	height: 0;
+	/*text-align: center;*/
+	position: relative;
+	left: 45%;
+	margin-bottom: 30px;
+}
+.bodyer .newmore .left .thehref{
+	width: 100%;
+	margin-left: 34%;
+}
+.bodyer .newmore .left .thehref a input:hover{
+	background-color: #fff;
+	color: #F95F5F;
+}
+.bodyer .newmore .left .thehref a input{
+	width: 150px;
+	height: 50px;
+	border:1px solid #fff;
+	background-color:#F95F5F; 
+	color: #fff;
+}
+.bodyer .newmore .middle{
+	width: 33%;
+	height: 100%;
+	background-color: #fff;
+	color: #F95F5F;
+	font-size: 22px;
+	float: left;
+}
+.bodyer .newmore .middle .thetop{
+	width: 100%;
+	padding-top: 120px;
+} 
+.bodyer .newmore .middle .thetop p{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.bodyer .newmore .middle .themiddle{
+	width: 100%;
+}
+.bodyer .newmore .middle .themiddle p{
+	text-align: center;
+	margin-top: 5px;
+}
+.bodyer .newmore .middle .heng{
+	border-top: 2px solid #F95F5F;
+	width: 40px;
+	height: 0;
+	/*text-align: center;*/
+	position: relative;
+	left: 45%;
+	margin-bottom: 30px;
+}
+.bodyer .newmore .middle .thehref{
+	width: 100%;
+	margin-left: 34%;
+}
+.bodyer .newmore .middle .thehref a input:hover{
+	background-color: #F95F5F;
+	color: #fff;
+}
+.bodyer .newmore .middle .thehref a input{
+	width: 150px;
+	height: 50px;
+	border:1px solid #F95F5F;
+	background-color:#fff; 
+	color: #F95F5F;
+}
+.bodyer .newmore .sanjiao{
+	width: 0;
+	height: 0;
+	border: 20px solid #fff;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 43%;
+	left: 64.5%;
+}
+.bodyer .newmore .right{
+	width: 34%;
+	height: 100%;
+	float: left;
+	/*background-color: #D4D2D2;*/
+	background-image: url(four.gif);
+	background-size: cover;
+}
+.volunteer{
+	height: 1000px;
+	/*background-color: #D3BFBF;*/
+	position: relative;
+	/*top: -50px;*/
+}
+.volunteer .top{
+	width: 100%;
+	height: 300px;
+
+} 
+.volunteer .top .thet{
+	font-size: 22px;
+	text-align: center;
+	/*color: #0F0202;*/
+	/*margin-top: 50px;*/
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.volunteer .top .thet p{
+	margin-bottom: 10px;
+}
+.volunteer .top .heng{
+	border-top: 2px solid #F95F5F;
+	width: 40px;
+	height: 0;
+	/*text-align: center;*/
+	position: relative;
+	left: 48%;
+	margin-bottom: 30px;
+}
+.volunteer .top .thep{
+	font-size: 12px;
+	text-align: center;
+	color: #575757;
+}
+.volunteer .bottom{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.volunteer .bottom .left{
+	width: 25%;
+	height: 100%;
+	/*background-color: #ABA7A7;*/
+	text-align: left;
+	float: left;
+	margin-left: 7%;
+	margin-right: 8%;
+	line-height: 18px;
+	position: relative;
+	left: 0;
+	top: 280px;
+}
+.volunteer .bottom .left .top1,.top3,.top5{
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	color: #1B0C0C;
+}
+.volunteer .bottom .left .top2,.top4{
+	font-size: 14px;
+	color: #595858;
+	width: 100%;
+}
+.volunteer .bottom .left .more1,.more2,.more3{
+	float: right;
+	width: 100%;
+	text-align: right;
+	margin-top: 0;
+}
+.volunteer .bottom .left .more1 p,.more2 p,.more3 p{
+	margin-top: 0;
+}
+.volunteer .bottom .left .top2 p,.top4 p{
+	margin-bottom: 0;
+}
+.volunteer .bottom .left .top5 p{
+	margin-bottom: 0;
+}
+.volunteer .bottom .right{
+	width: 60%;
+	float: left;
+	position: relative;
+	top: 300px;
+}
+.volunteer .bottom .right .nameage{
+	/*width: 100%;*/
+	height: 60px;
+
+}
+.volunteer .bottom .right .name,.age{
+	background-color: #BBBBBB;
+	width: 40%；
+	height: 60px;
+	margin-right:60px;
+	float: left;
+	border:1px solid #FFFFFF;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+.volunteer .bottom .right .tel,.address{
+	background-color: #BBBBBB;
+	width: 40%；
+	height: 60px;
+	margin-right:60px;
+	float: left;
+	border:1px solid #FFFFFF;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+.volunteer .bottom .right .name input,.age input{
+	width: 254px;
+	background-color:#BBBBBB;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1 solid #9C9B9B; 
+	outline: none;
+}
+.volunteer .bottom .right .tel input,.address input{
+	width: 222px;
+	background-color: #BBBBBB;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1 solid #9C9B9B; 
+	outline: none;
+}
+.volunteer .bottom .right .mydream{
+	background-color:#BBBBBB;
+	position: relative;
+	top: 86px;
+	height: 170px;
+	width: 85%;
+}
+.volunteer .bottom .right .mydream p{
+	position: absolute;
+	top: 0;
+	line-height: 12px;
+	padding-top: 0;
+}
+.volunteer .bottom .right .mydream textarea{
+	width: 500px;
+	height: 150px;
+	position: absolute;
+	top: 10px;
+	left: 160px;
+	background-color: #BBBBBB;
+	outline: none;
+}
+.volunteer .bottom .right .submit{
+	background-color: #BBBBBB;
+	position: relative;
+	top: 80px;
+	left: 0;
+	margin-top: 20px;
+	width: 85%;
+	float: left;
+	height: 50px;
+}
+.volunteer .bottom .right .submit a{
+	line-height: 50px;
+	font-size: 25px;
+	position: absolute;
+	left: 42%;
+	background-color: #BBBBBB;
+	color: #150808;
+}
+.footer {
+	width: 100%;
+	height: 380px;
+	background-color: #656565;
+	float: left;
+	position: relative;
+	top: 1900px;
+}
+.footer .callme .title {
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 3px;
+	padding-top: 50px;
+}
+.footer .callme .message{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+
+}
+.footer .callme .button{
+	width: 100%;
+	height: 50px;
+	padding-left: 30%;
+	margin-top: 30px;
+}
+.footer .callme .button .kuang{
+	width: 33%;
+	height: 30px;
+
+}
+.footer .callme .button .anniu{
+	width: 100px;
+	height: 35px;
+	/*background-color: #3C3838;*/
+	font-size: 18px;
+	position: relative;
+	top: 3px;
+}
+.footer .callme .list{
+	/*width: 100%;*/
+	padding-left: 41%;
+}
+.footer .callme .list ul{
+	list-style: none;
+}
+.footer .callme .list ul li{
+	float: left;
+	margin-left: 20px;
+}
+.footer .bottom{
+	/*width: 100%;*/
+	height: 100px;
+	background-color: #3A3838;
+	color: #fff;
+}
+.footer .bottom{
+	/*background-color: #403939;*/
+	/*width: 100%;*/
+	height: 70px;
+	position: relative;
+	top: 50px;
+}
+.footer .bottom .left{
+	color: #fff;
+	line-height: 70px;
+	position: absolute;
+	left: 5%;
+}
+.footer .bottom .right{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.footer .bottom .right a{
+	color: #fff;
+}
